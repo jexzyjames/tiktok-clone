@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+.wrapper{
+  @apply flex flex-col gap-8;
+  margin: 10px auto ;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center !important;
+  justify-content: center !important;
+
+}
+body{
+  display: grid;
+  width:100%;
+  /* box-sizing:border-box; */
+  overflow: hidden !important;
+
+  /* min-height:100vh; */
+  /* overflow:hidden; */
+
+}
+.fadeIn{
+  animation: fadeIn 0.3s ease-in-out;
+}
+.search::after{
+  content: '|';
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top:0;
+  right:25px;
+  /* height: 10px; */
+  /* background:red; */
+  color: grey;
+  /* width:10px; */
+  
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+
+  }
+}
+.video-feed {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden ;
+  margin:auto;
+  /* overflow:auto; */
+  padding:0;
+  max-width:400px;
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius:10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  transition:all 0.1s ease-in-out;
+  animation:fadeIn 0.1s ease-in-out;
+  scroll-snap-type: y mandatory;
+}
+.scroll{
+  overflow-y: scroll;
+  width:100%;
+  scrollbar-width: none;
+}
+.scroll::webkit-scrollbar{
+  display:none;
+}
+button{
+  cursor:pointer;
+}
+
+.video-container {
+  
+  scroll-snap-align: start ;
+  height: 100vh;
+  width:100vw;
+  max-width:400px;
+  border-radius:10px;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  border-radius:15px;
+  height: 100vh;
+  position:relative;
+  scroll-snap-align: start ;
+
+  object-fit: cover;
+}

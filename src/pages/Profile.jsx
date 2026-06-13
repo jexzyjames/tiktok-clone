@@ -4,7 +4,7 @@ import useProfileStore from "../store/profileStore";
 import useAuthStore from "../store/Auth";
 import { FaArrowLeft } from "react-icons/fa";
 import userImg from "../assets/Me.png";
-import addAccount from "../assets/add Account Icon.png";
+import addAccount from "../assets/Add Account Icon.png";
 import favourites from "../assets/Bookmark Icon.png";
 import tab from "../assets/Tab.png";
 import home from "../assets/Home.png";

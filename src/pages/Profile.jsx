@@ -8,7 +8,7 @@ import addAccount from "../assets/Add Account Icon.png";
 import favourites from "../assets/Bookmark Icon.png";
 import tab from "../assets/Tab.png";
 import home from "../assets/Home.png";
-import profileImg from "../assets/Image.png";
+import profileImg from "../assets/image.png";
 import ellipses from "../assets/Menu Icon.png";
 import search from "../assets/Discover.png";
 import uploadBtn from "../assets/Button Shape.png";

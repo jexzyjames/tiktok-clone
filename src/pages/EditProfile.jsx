@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import arrow from '../assets/Left arrow Icon.png'
+import arrow from '../assets/Left Arrow Icon.png'
 import videoIcon from '../assets/Videcamera Stroke Icon.png'
 import cameraIcon from '../assets/Camera Stroke Icon.png'
 import copyIcon from '../assets/Clipboard Stroke Icon.png'

@@ -1,6 +1,6 @@
 import React,{useEffect, useRef} from 'react'
 import { useNavigate, useLocation} from 'react-router-dom'
-import arrow from '../assets/Left arrow Icon.png'
+import arrow from '../assets/Left Arrow Icon.png'
 import send from '../assets/Message Icon.png'
 import plusIcon from '../assets/Plus Icon.png'
  
